@@ -82,7 +82,7 @@ function testAns() {
   const answerValue  = form.inputAnswer().value;  
   if (!answerValue) {
       alert("Resposta incorreta...  :'(");
-  } else if (answerValue == d(level[current_level][levelAnswer])) {
+  } else if (answerValue.toLowerCase() == d(level[current_level][levelAnswer])) {
       current_level++;
       loadLevel(current_level);
   } else {
