@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Riddle - Nível 0</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+    <div class="image-container">
+        <h2 id="label-title">Opa, confirme a sua identidade...</h1>
+        <img id="img-level" src="imgs/capa.jpeg" alt="i'm waiting you ...">
+        <p id="label-tip">Quem é você?</p>
+    </div>
+
+    <div id="input-container" class="input-container">
+        <input id="input-answer" type="text" placeholder="Resposta..." maxlength="3" onkeyup="onChangeAnsw()">
+        <button id="button-ok" onclick="testAns()">Enviar</button>
+    </div>
+
+    <div class="text-center">
+        <p id="label-char-remaining">Caracteres restantes: 8</p>
+        <p id="label-answ-format">Formato da resposta: utilize apenas números.</p>
+    </div>
+
+    <div id="comments-container">        
+    </div>    
+
+</body>
+
+<script src="main.js"></script>
+
+</html>

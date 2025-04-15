@@ -1,0 +1,72 @@
+body {
+    font-family: Lucida console, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*height: 100vh;*/
+    margin: 0;
+    background-color: rgb(28, 30, 32);
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.image-container {
+    width: 90vw;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    font-family: Lucida console, Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgb(28, 30, 32);            
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: Lucida console, Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgb(28, 30, 32);
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#label-tip {
+    color: #ffffff;				
+    font-size: 14px;
+}		
+
+#label-char-remaining {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+#label-answ-format {
+    color: #ffffff;		
+    font-size: 14px;
+}	
+
+#comments-container {
+    display: none;
+}
